@@ -14,9 +14,14 @@
 │   └── window.svg
 ├── README.md
 ├── src
+│   ├── components
+│   │   ├── layout
+│   │   └── sections
+│   ├── data
+│   │   ├── projects.tsx
+│   │   └── sections.ts
+│   ├── lib
 │   ├── pages
-│   │   ├── _app.tsx
-│   │   ├── _document.tsx
 │   │   ├── api
 │   │   └── index.tsx
 │   └── styles
@@ -24,7 +29,7 @@
 ├── structure.txt
 └── tsconfig.json
 
-6 directories, 19 files
+11 directories, 19 files
 
 to run this: 
 tree -L 3 -I "node_modules|.next|.git" > structure.txt
